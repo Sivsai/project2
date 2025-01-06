@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple HTML page with proper layout">
+    <meta name="keywords" content="HTML, CSS, Frontend, Developer">
+    <meta name="author" content="Avulakonda Siva Sai">
+    <meta http-equiv="refresh" content="30">
+    <title>HomePage</title>
+    <style>
+        body {
+            margin: 40px;
+            padding: 0px;
+            border: 2px solid black;
+
+        }
+
+        nav {
+            margin-top: 20px;
+
+        }
+
+        a {
+            font-weight: 700;
+
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: black;
+            text-align: center;
+        }
+
+        ul {
+            list-style: circle;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid black;
+
+
+        }
+
+        .table-header {
+            border-bottom: 0cap;
+            font-size: 22px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 20px;
+            width: 150px;
+            text-align: left;
+            background-color: #f9f9f9;
+            border-radius: 30px;
+
+
+        }
+
+        .name {
+            color: rgb(192, 191, 191);
+        }
+
+        .navi {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <span class="navi">
+            <h2>Avulakonda Siva Sai</h2>
+            <nav>
+                <a href="Home.html">Home</a> / <a href="projects.html">Projects</a> / <a
+                    href="Articles.html">Articles</a> / <a href="contact.html">Contact</a>
+            </nav>
+        </span>
+
+        <h1>Frontend Developer</h1>
+        <p style="text-align: center; color:rgb(131, 128, 128) ;">html only with proper layout, no styling</p>
+
+    </header>
+    <br><br><br><br><br>
+    <section>
+        <table border="1">
+            <thead>
+                <tr class="table-header">
+                    <th>Projects</th>
+                    <th>Work Experience</th>
+                    <th>Education</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>HTML Only Protofolio</td>
+                    <td rowspan="3">
+                        <p>roadmap.sh</p>
+                        <p>Solved all the Frontend Projects</p>
+                        <p><a href="https://in.linkedin.com/" style="color: rgb(53, 132, 221); font-size: small;">Visit
+                                My Profile</a></p>
+                    </td>
+                    <td rowspan="7">Graduated with 3.76 out 4 CGPA. Won ACME Hackathon.Organizeed 30 sessions.
+                        <p>Courses I took:
+                        <ul>
+                            <li>Frontend Development</li>
+                            <li>OOP</li>
+                            <li>DBMS</li>
+                            <li>OS</li>
+                            <li>AI</li>
+                            <li>Computer Graphics</li>
+                            <li>Discrete Mathematics</li>
+                        </ul>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Calculator</td>
+                </tr>
+                <tr>
+                    <td>Weather App</td>
+                </tr>
+                <tr>
+                    <td>Todo App</td>
+                    <td rowspan="4">
+                        <p>Open Source Work</p>
+                        <p>Contributed to 50 opensource projects.Made my own projects with 200 Githb Stars</p>
+                        <p><a href="https://github.com/" style="color: rgb(53, 132, 221); font-size: small;">Visit
+                                my Github Profile</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blog</td>
+                </tr>
+               
+            </tbody>
+
+        </table>
+    </section>
+    <section>
+        <h2>Reviews from teachers</h2>
+        <span class="container">
+            <span class="box">John doe was a brillant student;always stood out with his assignments.
+                <span class="name">
+                    <br>Jane doe
+                    <br>assistant professor
+                </span>
+            </span>
+            <span class="box">John doe was a brillant student;always stood out with his assignments.
+
+                <span class="name">
+                    <br>Jane doe
+                    <br>assistant professor
+                </span></span>
+            <span class="box">John doe was a brillant student;always stood out with his assignments.
+                <span class="name">
+                    <br>Jane doe
+                    <br>assistant professor
+                </span>
+            </span>
+        </span>
+    </section>
+    <footer>
+        <p style="text-align: center;"><strong>&copy; all rights reserved 2025</strong></p>
+    </footer>
+</body>
+
+</html>
